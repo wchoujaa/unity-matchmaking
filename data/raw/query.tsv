@@ -1,0 +1,671 @@
+countryLabel	neighbourLabel	countryCode	neighbourCode
+Afghanistan	Iran	AF	IR
+Afghanistan	Pakistan	AF	PK
+Afghanistan	People's Republic of China	AF	CN
+Afghanistan	Tajikistan	AF	TJ
+Afghanistan	Turkmenistan	AF	TM
+Afghanistan	Uzbekistan	AF	UZ
+Albania	Greece	AL	GR
+Albania	Kosovo	AL	XK
+Albania	Montenegro	AL	ME
+Albania	North Macedonia	AL	MK
+Albania	Serbia	AL	RS
+Algeria	Libya	DZ	LY
+Algeria	Mali	DZ	ML
+Algeria	Mauritania	DZ	MR
+Algeria	Morocco	DZ	MA
+Algeria	Niger	DZ	NE
+Algeria	Tunisia	DZ	TN
+Algeria	Western Sahara	DZ	EH
+Andorra	France	AD	FR
+Andorra	Spain	AD	ES
+Angola	Democratic Republic of the Congo	AO	CD
+Angola	Gabon	AO	GA
+Angola	Namibia	AO	NA
+Angola	Republic of the Congo	AO	CG
+Angola	Zambia	AO	ZM
+Argentina	Bolivia	AR	BO
+Argentina	Brazil	AR	BR
+Argentina	Chile	AR	CL
+Argentina	Paraguay	AR	PY
+Argentina	Uruguay	AR	UY
+Australia	East Timor	AU	TL
+Australia	Indonesia	AU	ID
+Australia	New Zealand	AU	NZ
+Australia	Papua New Guinea	AU	PG
+Austria	Czech Republic	AT	CZ
+Austria	Germany	AT	DE
+Austria	Hungary	AT	HU
+Austria	Italy	AT	IT
+Austria	Liechtenstein	AT	LI
+Austria	Slovakia	AT	SK
+Austria	Slovenia	AT	SI
+Austria	Switzerland	AT	CH
+Bahrain	Iran	BH	IR
+Bahrain	Saudi Arabia	BH	SA
+Bangladesh	India	BD	IN
+Bangladesh	Myanmar	BD	MM
+Belarus	Latvia	BY	LV
+Belarus	Lithuania	BY	LT
+Belarus	Poland	BY	PL
+Belarus	Russia	BY	RU
+Belarus	Ukraine	BY	UA
+Benin	Burkina Faso	BJ	BF
+Benin	Niger	BJ	NE
+Benin	Nigeria	BJ	NG
+Benin	Togo	BJ	TG
+Bhutan	India	BT	IN
+Bhutan	People's Republic of China	BT	CN
+Bolivia	Argentina	BO	AR
+Bolivia	Brazil	BO	BR
+Bolivia	Chile	BO	CL
+Bolivia	Paraguay	BO	PY
+Bolivia	Peru	BO	PE
+Botswana	Namibia	BW	NA
+Botswana	South Africa	BW	ZA
+Botswana	Zambia	BW	ZM
+Botswana	Zimbabwe	BW	ZW
+Brazil	Argentina	BR	AR
+Brazil	Bolivia	BR	BO
+Brazil	Colombia	BR	CO
+Brazil	France	BR	FR
+Brazil	French Guiana	BR	GF
+Brazil	Guyana	BR	GY
+Brazil	Paraguay	BR	PY
+Brazil	Peru	BR	PE
+Brazil	Suriname	BR	SR
+Brazil	Uruguay	BR	UY
+Brazil	Venezuela	BR	VE
+Brunei	Malaysia	BN	MY
+Bulgaria	Greece	BG	GR
+Bulgaria	North Macedonia	BG	MK
+Bulgaria	Romania	BG	RO
+Bulgaria	Serbia	BG	RS
+Bulgaria	Turkey	BG	TR
+Burkina Faso	Benin	BF	BJ
+Burkina Faso	Ghana	BF	GH
+Burkina Faso	Ivory Coast	BF	CI
+Burkina Faso	Mali	BF	ML
+Burkina Faso	Niger	BF	NE
+Burkina Faso	Togo	BF	TG
+Burundi	Democratic Republic of the Congo	BI	CD
+Burundi	Rwanda	BI	RW
+Burundi	Tanzania	BI	TZ
+Cambodia	Laos	KH	LA
+Cambodia	Thailand	KH	TH
+Cambodia	Vietnam	KH	VN
+Cameroon	Central African Republic	CM	CF
+Cameroon	Chad	CM	TD
+Cameroon	Equatorial Guinea	CM	GQ
+Cameroon	Gabon	CM	GA
+Cameroon	Nigeria	CM	NG
+Cameroon	Republic of the Congo	CM	CG
+Canada	Greenland	CA	GL
+Canada	United States of America	CA	US
+Central African Republic	Cameroon	CF	CM
+Central African Republic	Chad	CF	TD
+Central African Republic	Democratic Republic of the Congo	CF	CD
+Central African Republic	Republic of the Congo	CF	CG
+Central African Republic	South Sudan	CF	SS
+Central African Republic	Sudan	CF	SD
+Chad	Cameroon	TD	CM
+Chad	Central African Republic	TD	CF
+Chad	Libya	TD	LY
+Chad	Niger	TD	NE
+Chad	Nigeria	TD	NG
+Chad	Sudan	TD	SD
+Chile	Argentina	CL	AR
+Chile	Bolivia	CL	BO
+Chile	Peru	CL	PE
+Colombia	Brazil	CO	BR
+Colombia	Ecuador	CO	EC
+Colombia	Nicaragua	CO	NI
+Colombia	Panama	CO	PA
+Colombia	Peru	CO	PE
+Colombia	Venezuela	CO	VE
+Comoros	France	KM	FR
+Comoros	Madagascar	KM	MG
+Comoros	Mozambique	KM	MZ
+Comoros	Seychelles	KM	SC
+Comoros	Tanzania	KM	TZ
+Costa Rica	Nicaragua	CR	NI
+Costa Rica	Panama	CR	PA
+Croatia	Bosnia and Herzegovina	HR	BA
+Croatia	Hungary	HR	HU
+Croatia	Montenegro	HR	ME
+Croatia	Serbia	HR	RS
+Croatia	Slovenia	HR	SI
+Cuba	United States of America	CU	US
+Cyprus	Israel	CY	IL
+Czech Republic	Austria	CZ	AT
+Czech Republic	Germany	CZ	DE
+Czech Republic	Poland	CZ	PL
+Czech Republic	Slovakia	CZ	SK
+Democratic Republic of the Congo	Angola	CD	AO
+Democratic Republic of the Congo	Burundi	CD	BI
+Democratic Republic of the Congo	Cameroon	CD	CM
+Democratic Republic of the Congo	Central African Republic	CD	CF
+Democratic Republic of the Congo	Republic of the Congo	CD	CG
+Democratic Republic of the Congo	Rwanda	CD	RW
+Democratic Republic of the Congo	South Sudan	CD	SS
+Democratic Republic of the Congo	Sudan	CD	SD
+Democratic Republic of the Congo	Tanzania	CD	TZ
+Democratic Republic of the Congo	Uganda	CD	UG
+Democratic Republic of the Congo	Zambia	CD	ZM
+Denmark	Germany	DK	DE
+Denmark	Norway	DK	NO
+Denmark	Sweden	DK	SE
+Djibouti	Eritrea	DJ	ER
+Djibouti	Ethiopia	DJ	ET
+Djibouti	Somalia	DJ	SO
+Dominica	Venezuela	DM	VE
+Dominican Republic	Haiti	DO	HT
+Dominican Republic	United States of America	DO	US
+Dominican Republic	Venezuela	DO	VE
+East Timor	Australia	TL	AU
+East Timor	Indonesia	TL	ID
+Ecuador	Colombia	EC	CO
+Ecuador	Peru	EC	PE
+Egypt	Israel	EG	IL
+Egypt	Libya	EG	LY
+Egypt	Sudan	EG	SD
+El Salvador	Guatemala	SV	GT
+El Salvador	Honduras	SV	HN
+Eritrea	Djibouti	ER	DJ
+Eritrea	Ethiopia	ER	ET
+Eritrea	Sudan	ER	SD
+Ethiopia	Djibouti	ET	DJ
+Ethiopia	Eritrea	ET	ER
+Ethiopia	Kenya	ET	KE
+Ethiopia	Somalia	ET	SO
+Ethiopia	South Sudan	ET	SS
+Ethiopia	Sudan	ET	SD
+Federated States of Micronesia	United States of America	FM	US
+Finland	Norway	FI	NO
+Finland	Russia	FI	RU
+Finland	Sweden	FI	SE
+France	Andorra	FR	AD
+France	Belgium	FR	BE
+France	Brazil	FR	BR
+France	Germany	FR	DE
+France	Italy	FR	IT
+France	Kingdom of the Netherlands	FR	NL
+France	Luxembourg	FR	LU
+France	Monaco	FR	MC
+France	Spain	FR	ES
+France	Suriname	FR	SR
+France	Switzerland	FR	CH
+Germany	Austria	DE	AT
+Germany	Belgium	DE	BE
+Germany	Czech Republic	DE	CZ
+Germany	Denmark	DE	DK
+Germany	France	DE	FR
+Germany	Luxembourg	DE	LU
+Germany	Netherlands	DE	NL
+Germany	Poland	DE	PL
+Germany	Switzerland	DE	CH
+Ghana	Burkina Faso	GH	BF
+Ghana	Ivory Coast	GH	CI
+Ghana	Togo	GH	TG
+Greece	Albania	GR	AL
+Greece	Bulgaria	GR	BG
+Greece	North Macedonia	GR	MK
+Greece	Turkey	GR	TR
+Grenada	Venezuela	GD	VE
+Guatemala	Belize	GT	BZ
+Guatemala	El Salvador	GT	SV
+Guatemala	Honduras	GT	HN
+Guatemala	Mexico	GT	MX
+Guinea	Guinea-Bissau	GN	GW
+Guinea	Ivory Coast	GN	CI
+Guinea	Liberia	GN	LR
+Guinea	Mali	GN	ML
+Guinea	Senegal	GN	SN
+Guinea	Sierra Leone	GN	SL
+Guinea-Bissau	Guinea	GW	GN
+Guinea-Bissau	Senegal	GW	SN
+Guyana	Brazil	GY	BR
+Guyana	Suriname	GY	SR
+Guyana	Venezuela	GY	VE
+Haiti	Dominican Republic	HT	DO
+Haiti	United States of America	HT	US
+Honduras	El Salvador	HN	SV
+Honduras	Guatemala	HN	GT
+Honduras	Nicaragua	HN	NI
+Hungary	Austria	HU	AT
+Hungary	Croatia	HU	HR
+Hungary	Romania	HU	RO
+Hungary	Serbia	HU	RS
+Hungary	Slovakia	HU	SK
+Hungary	Slovenia	HU	SI
+Hungary	Ukraine	HU	UA
+India	Bangladesh	IN	BD
+India	Bhutan	IN	BT
+India	Indonesia	IN	ID
+India	Myanmar	IN	MM
+India	Nepal	IN	NP
+India	Pakistan	IN	PK
+India	People's Republic of China	IN	CN
+India	Sri Lanka	IN	LK
+Indonesia	Australia	ID	AU
+Indonesia	East Timor	ID	TL
+Indonesia	India	ID	IN
+Indonesia	Malaysia	ID	MY
+Indonesia	Palau	ID	PW
+Indonesia	Papua New Guinea	ID	PG
+Indonesia	Philippines	ID	PH
+Indonesia	Singapore	ID	SG
+Indonesia	Thailand	ID	TH
+Indonesia	Vietnam	ID	VN
+Iran	Afghanistan	IR	AF
+Iran	Armenia	IR	AM
+Iran	Azerbaijan	IR	AZ
+Iran	Bahrain	IR	BH
+Iran	Iraq	IR	IQ
+Iran	Kuwait	IR	KW
+Iran	Oman	IR	OM
+Iran	Pakistan	IR	PK
+Iran	Qatar	IR	QA
+Iran	Saudi Arabia	IR	SA
+Iran	Turkey	IR	TR
+Iran	Turkmenistan	IR	TM
+Iran	United Arab Emirates	IR	AE
+Iraq	Iran	IQ	IR
+Iraq	Jordan	IQ	JO
+Iraq	Kuwait	IQ	KW
+Iraq	Saudi Arabia	IQ	SA
+Iraq	Syria	IQ	SY
+Iraq	Turkey	IQ	TR
+Ireland	United Kingdom	IE	GB
+Israel	Egypt	IL	EG
+Israel	Jordan	IL	JO
+Israel	Lebanon	IL	LB
+Israel	Syria	IL	SY
+Italy	Austria	IT	AT
+Italy	France	IT	FR
+Italy	Malta	IT	MT
+Italy	San Marino	IT	SM
+Italy	Slovenia	IT	SI
+Italy	Switzerland	IT	CH
+Italy	Vatican City	IT	VA
+Ivory Coast	Burkina Faso	CI	BF
+Ivory Coast	Ghana	CI	GH
+Ivory Coast	Guinea	CI	GN
+Ivory Coast	Liberia	CI	LR
+Ivory Coast	Mali	CI	ML
+Japan	People's Republic of China	JP	CN
+Japan	Philippines	JP	PH
+Japan	Russia	JP	RU
+Japan	South Korea	JP	KR
+Japan	Taiwan	JP	TW
+Japan	United States of America	JP	US
+Jordan	Iraq	JO	IQ
+Jordan	Israel	JO	IL
+Jordan	Saudi Arabia	JO	SA
+Jordan	Syria	JO	SY
+Kazakhstan	Kyrgyzstan	KZ	KG
+Kazakhstan	People's Republic of China	KZ	CN
+Kazakhstan	Russia	KZ	RU
+Kazakhstan	Turkmenistan	KZ	TM
+Kazakhstan	Uzbekistan	KZ	UZ
+Kenya	Ethiopia	KE	ET
+Kenya	Somalia	KE	SO
+Kenya	South Sudan	KE	SS
+Kenya	Sudan	KE	SD
+Kenya	Tanzania	KE	TZ
+Kenya	Uganda	KE	UG
+Kingdom of the Netherlands	Belgium	NL	BE
+Kingdom of the Netherlands	France	NL	FR
+Kingdom of the Netherlands	Germany	NL	DE
+Kingdom of the Netherlands	Venezuela	NL	VE
+Kiribati	France	KI	FR
+Kiribati	United States of America	KI	US
+Kyrgyzstan	Kazakhstan	KG	KZ
+Kyrgyzstan	People's Republic of China	KG	CN
+Kyrgyzstan	Tajikistan	KG	TJ
+Kyrgyzstan	Uzbekistan	KG	UZ
+Laos	Cambodia	LA	KH
+Laos	Myanmar	LA	MM
+Laos	People's Republic of China	LA	CN
+Laos	Thailand	LA	TH
+Laos	Vietnam	LA	VN
+Latvia	Belarus	LV	BY
+Latvia	Estonia	LV	EE
+Latvia	Lithuania	LV	LT
+Latvia	Russia	LV	RU
+Latvia	Sweden	LV	SE
+Lebanon	Israel	LB	IL
+Lebanon	Syria	LB	SY
+Lesotho	South Africa	LS	ZA
+Liberia	Guinea	LR	GN
+Liberia	Ivory Coast	LR	CI
+Liberia	Sierra Leone	LR	SL
+Libya	Algeria	LY	DZ
+Libya	Chad	LY	TD
+Libya	Egypt	LY	EG
+Libya	Niger	LY	NE
+Libya	Sudan	LY	SD
+Libya	Tunisia	LY	TN
+Liechtenstein	Austria	LI	AT
+Liechtenstein	Switzerland	LI	CH
+Madagascar	Comoros	MG	KM
+Madagascar	France	MG	FR
+Madagascar	Mozambique	MG	MZ
+Madagascar	Seychelles	MG	SC
+Malawi	Mozambique	MW	MZ
+Malawi	Tanzania	MW	TZ
+Malawi	Zambia	MW	ZM
+Malaysia	Brunei	MY	BN
+Malaysia	Indonesia	MY	ID
+Malaysia	Philippines	MY	PH
+Malaysia	Singapore	MY	SG
+Malaysia	Thailand	MY	TH
+Mali	Algeria	ML	DZ
+Mali	Burkina Faso	ML	BF
+Mali	Guinea	ML	GN
+Mali	Ivory Coast	ML	CI
+Mali	Mauritania	ML	MR
+Mali	Niger	ML	NE
+Mali	Senegal	ML	SN
+Malta	Italy	MT	IT
+Marshall Islands	Federated States of Micronesia	MH	FM
+Marshall Islands	Kiribati	MH	KI
+Marshall Islands	Nauru	MH	NR
+Marshall Islands	United States of America	MH	US
+Mauritania	Algeria	MR	DZ
+Mauritania	Mali	MR	ML
+Mauritania	Senegal	MR	SN
+Mauritania	Western Sahara	MR	EH
+Mexico	Belize	MX	BZ
+Mexico	Guatemala	MX	GT
+Mexico	United States of America	MX	US
+Mongolia	People's Republic of China	MN	CN
+Mongolia	Russia	MN	RU
+Montenegro	Albania	ME	AL
+Montenegro	Bosnia and Herzegovina	ME	BA
+Montenegro	Croatia	ME	HR
+Montenegro	Kosovo	ME	XK
+Montenegro	Serbia	ME	RS
+Morocco	Algeria	MA	DZ
+Morocco	Mauritania	MA	MR
+Morocco	Spain	MA	ES
+Mozambique	Comoros	MZ	KM
+Mozambique	Eswatini	MZ	SZ
+Mozambique	Malawi	MZ	MW
+Mozambique	South Africa	MZ	ZA
+Mozambique	Tanzania	MZ	TZ
+Mozambique	Zambia	MZ	ZM
+Mozambique	Zimbabwe	MZ	ZW
+Myanmar	Bangladesh	MM	BD
+Myanmar	India	MM	IN
+Myanmar	Laos	MM	LA
+Myanmar	People's Republic of China	MM	CN
+Myanmar	Thailand	MM	TH
+Namibia	Angola	NA	AO
+Namibia	Botswana	NA	BW
+Namibia	South Africa	NA	ZA
+Namibia	Zambia	NA	ZM
+Nepal	India	NP	IN
+Nepal	People's Republic of China	NP	CN
+Netherlands	Belgium	NL	BE
+Netherlands	Germany	NL	DE
+New Zealand	Australia	NZ	AU
+Nicaragua	Colombia	NI	CO
+Nicaragua	Costa Rica	NI	CR
+Nicaragua	Honduras	NI	HN
+Niger	Algeria	NE	DZ
+Niger	Benin	NE	BJ
+Niger	Burkina Faso	NE	BF
+Niger	Chad	NE	TD
+Niger	Libya	NE	LY
+Niger	Mali	NE	ML
+Niger	Nigeria	NE	NG
+Nigeria	Benin	NG	BJ
+Nigeria	Cameroon	NG	CM
+Nigeria	Chad	NG	TD
+Nigeria	Niger	NG	NE
+Nigeria	São Tomé and Príncipe	NG	ST
+North Korea	People's Republic of China	KP	CN
+North Korea	Russia	KP	RU
+North Korea	South Korea	KP	KR
+Norway	Finland	NO	FI
+Norway	Russia	NO	RU
+Norway	Sweden	NO	SE
+Oman	Iran	OM	IR
+Oman	Saudi Arabia	OM	SA
+Oman	United Arab Emirates	OM	AE
+Oman	Yemen	OM	YE
+Pakistan	Afghanistan	PK	AF
+Pakistan	India	PK	IN
+Pakistan	Iran	PK	IR
+Pakistan	People's Republic of China	PK	CN
+Palau	Federated States of Micronesia	PW	FM
+Palau	Indonesia	PW	ID
+Palau	Philippines	PW	PH
+Papua New Guinea	Australia	PG	AU
+Papua New Guinea	Indonesia	PG	ID
+Paraguay	Argentina	PY	AR
+Paraguay	Bolivia	PY	BO
+Paraguay	Brazil	PY	BR
+People's Republic of China	Afghanistan	CN	AF
+People's Republic of China	Bhutan	CN	BT
+People's Republic of China	India	CN	IN
+People's Republic of China	Japan	CN	JP
+People's Republic of China	Kazakhstan	CN	KZ
+People's Republic of China	Kyrgyzstan	CN	KG
+People's Republic of China	Laos	CN	LA
+People's Republic of China	Mongolia	CN	MN
+People's Republic of China	Myanmar	CN	MM
+People's Republic of China	Nepal	CN	NP
+People's Republic of China	North Korea	CN	KP
+People's Republic of China	Pakistan	CN	PK
+People's Republic of China	Russia	CN	RU
+People's Republic of China	South Korea	CN	KR
+People's Republic of China	Tajikistan	CN	TJ
+People's Republic of China	Vietnam	CN	VN
+Peru	Bolivia	PE	BO
+Peru	Brazil	PE	BR
+Peru	Chile	PE	CL
+Peru	Colombia	PE	CO
+Peru	Ecuador	PE	EC
+Philippines	Indonesia	PH	ID
+Philippines	Malaysia	PH	MY
+Philippines	Palau	PH	PW
+Philippines	Taiwan	PH	TW
+Poland	Belarus	PL	BY
+Poland	Czech Republic	PL	CZ
+Poland	Germany	PL	DE
+Poland	Lithuania	PL	LT
+Poland	Russia	PL	RU
+Poland	Slovakia	PL	SK
+Poland	Ukraine	PL	UA
+Portugal	Spain	PT	ES
+Qatar	Iran	QA	IR
+Qatar	Saudi Arabia	QA	SA
+Republic of the Congo	Angola	CG	AO
+Republic of the Congo	Cameroon	CG	CM
+Republic of the Congo	Central African Republic	CG	CF
+Republic of the Congo	Democratic Republic of the Congo	CG	CD
+Republic of the Congo	Gabon	CG	GA
+Romania	Bulgaria	RO	BG
+Romania	Hungary	RO	HU
+Romania	Moldova	RO	MD
+Romania	Serbia	RO	RS
+Romania	Ukraine	RO	UA
+Rwanda	Burundi	RW	BI
+Rwanda	Democratic Republic of the Congo	RW	CD
+Rwanda	Tanzania	RW	TZ
+Rwanda	Uganda	RW	UG
+Saint Kitts and Nevis	Venezuela	KN	VE
+Saint Lucia	Venezuela	LC	VE
+Saint Vincent and the Grenadines	Venezuela	VC	VE
+Samoa	United States of America	WS	US
+Saudi Arabia	Bahrain	SA	BH
+Saudi Arabia	Egypt	SA	EG
+Saudi Arabia	Iran	SA	IR
+Saudi Arabia	Iraq	SA	IQ
+Saudi Arabia	Jordan	SA	JO
+Saudi Arabia	Kuwait	SA	KW
+Saudi Arabia	Oman	SA	OM
+Saudi Arabia	Qatar	SA	QA
+Saudi Arabia	United Arab Emirates	SA	AE
+Saudi Arabia	Yemen	SA	YE
+Senegal	Guinea	SN	GN
+Senegal	Guinea-Bissau	SN	GW
+Senegal	Mali	SN	ML
+Senegal	Mauritania	SN	MR
+Senegal	The Gambia	SN	GM
+Seychelles	Comoros	SC	KM
+Seychelles	France	SC	FR
+Seychelles	Madagascar	SC	MG
+Seychelles	Mauritius	SC	MU
+Seychelles	Tanzania	SC	TZ
+Sierra Leone	Guinea	SL	GN
+Sierra Leone	Liberia	SL	LR
+Singapore	Indonesia	SG	ID
+Singapore	Malaysia	SG	MY
+Sint Maarten	Saint Martin (French part)	SX	MF
+Slovakia	Austria	SK	AT
+Slovakia	Czech Republic	SK	CZ
+Slovakia	Hungary	SK	HU
+Slovakia	Poland	SK	PL
+Slovakia	Ukraine	SK	UA
+Solomon Islands	Australia	SB	AU
+Solomon Islands	Fiji	SB	FJ
+Solomon Islands	France	SB	FR
+Solomon Islands	Papua New Guinea	SB	PG
+Solomon Islands	Vanuatu	SB	VU
+Somalia	Djibouti	SO	DJ
+Somalia	Ethiopia	SO	ET
+Somalia	Kenya	SO	KE
+South Africa	Botswana	ZA	BW
+South Africa	Eswatini	ZA	SZ
+South Africa	Lesotho	ZA	LS
+South Africa	Mozambique	ZA	MZ
+South Africa	Namibia	ZA	NA
+South Africa	Zimbabwe	ZA	ZW
+South Korea	Japan	KR	JP
+South Korea	North Korea	KR	KP
+South Korea	People's Republic of China	KR	CN
+South Sudan	Central African Republic	SS	CF
+South Sudan	Democratic Republic of the Congo	SS	CD
+South Sudan	Ethiopia	SS	ET
+South Sudan	Kenya	SS	KE
+South Sudan	Sudan	SS	SD
+South Sudan	Uganda	SS	UG
+Sudan	Central African Republic	SD	CF
+Sudan	Chad	SD	TD
+Sudan	Democratic Republic of the Congo	SD	CD
+Sudan	Egypt	SD	EG
+Sudan	Eritrea	SD	ER
+Sudan	Ethiopia	SD	ET
+Sudan	Kenya	SD	KE
+Sudan	Libya	SD	LY
+Sudan	South Sudan	SD	SS
+Sudan	Uganda	SD	UG
+Sweden	Denmark	SE	DK
+Sweden	Finland	SE	FI
+Sweden	Norway	SE	NO
+Switzerland	Austria	CH	AT
+Switzerland	France	CH	FR
+Switzerland	Germany	CH	DE
+Switzerland	Italy	CH	IT
+Switzerland	Liechtenstein	CH	LI
+Syria	Iraq	SY	IQ
+Syria	Israel	SY	IL
+Syria	Jordan	SY	JO
+Syria	Lebanon	SY	LB
+Syria	Turkey	SY	TR
+São Tomé and Príncipe	Equatorial Guinea	ST	GQ
+São Tomé and Príncipe	Gabon	ST	GA
+São Tomé and Príncipe	Nigeria	ST	NG
+Taiwan	Japan	TW	JP
+Taiwan	People's Republic of China	TW	CN
+Taiwan	Philippines	TW	PH
+Tajikistan	Afghanistan	TJ	AF
+Tajikistan	Kyrgyzstan	TJ	KG
+Tajikistan	People's Republic of China	TJ	CN
+Tajikistan	Uzbekistan	TJ	UZ
+Tanzania	Burundi	TZ	BI
+Tanzania	Democratic Republic of the Congo	TZ	CD
+Tanzania	Kenya	TZ	KE
+Tanzania	Malawi	TZ	MW
+Tanzania	Mozambique	TZ	MZ
+Tanzania	Rwanda	TZ	RW
+Tanzania	Seychelles	TZ	SC
+Tanzania	Uganda	TZ	UG
+Tanzania	Zambia	TZ	ZM
+Thailand	Cambodia	TH	KH
+Thailand	Laos	TH	LA
+Thailand	Malaysia	TH	MY
+Thailand	Myanmar	TH	MM
+The Bahamas	United States of America	BS	US
+The Gambia	Senegal	GM	SN
+Togo	Benin	TG	BJ
+Togo	Burkina Faso	TG	BF
+Togo	Ghana	TG	GH
+Trinidad and Tobago	Venezuela	TT	VE
+Tunisia	Algeria	TN	DZ
+Tunisia	Libya	TN	LY
+Turkey	Armenia	TR	AM
+Turkey	Azerbaijan	TR	AZ
+Turkey	Bulgaria	TR	BG
+Turkey	Georgia	TR	GE
+Turkey	Greece	TR	GR
+Turkey	Iran	TR	IR
+Turkey	Iraq	TR	IQ
+Turkey	Syria	TR	SY
+Turkmenistan	Afghanistan	TM	AF
+Turkmenistan	Iran	TM	IR
+Turkmenistan	Kazakhstan	TM	KZ
+Turkmenistan	Uzbekistan	TM	UZ
+Uganda	Democratic Republic of the Congo	UG	CD
+Uganda	Kenya	UG	KE
+Uganda	Rwanda	UG	RW
+Uganda	South Sudan	UG	SS
+Uganda	Sudan	UG	SD
+Uganda	Tanzania	UG	TZ
+United Arab Emirates	Iran	AE	IR
+United Arab Emirates	Oman	AE	OM
+United Arab Emirates	Saudi Arabia	AE	SA
+United Kingdom	Ireland	GB	IE
+United States of America	Canada	US	CA
+United States of America	Mexico	US	MX
+Uruguay	Argentina	UY	AR
+Uruguay	Brazil	UY	BR
+Uzbekistan	Afghanistan	UZ	AF
+Uzbekistan	Kazakhstan	UZ	KZ
+Uzbekistan	Kyrgyzstan	UZ	KG
+Uzbekistan	Tajikistan	UZ	TJ
+Uzbekistan	Turkmenistan	UZ	TM
+Venezuela	Brazil	VE	BR
+Venezuela	Colombia	VE	CO
+Venezuela	Dominica	VE	DM
+Venezuela	Dominican Republic	VE	DO
+Venezuela	France	VE	FR
+Venezuela	Grenada	VE	GD
+Venezuela	Guyana	VE	GY
+Venezuela	Kingdom of the Netherlands	VE	NL
+Venezuela	Saint Kitts and Nevis	VE	KN
+Venezuela	Saint Lucia	VE	LC
+Venezuela	Saint Vincent and the Grenadines	VE	VC
+Venezuela	Trinidad and Tobago	VE	TT
+Venezuela	United Kingdom	VE	GB
+Venezuela	United States of America	VE	US
+Vietnam	Cambodia	VN	KH
+Vietnam	Laos	VN	LA
+Vietnam	People's Republic of China	VN	CN
+Yemen	Oman	YE	OM
+Yemen	Saudi Arabia	YE	SA
+Zambia	Angola	ZM	AO
+Zambia	Botswana	ZM	BW
+Zambia	Democratic Republic of the Congo	ZM	CD
+Zambia	Malawi	ZM	MW
+Zambia	Mozambique	ZM	MZ
+Zambia	Namibia	ZM	NA
+Zambia	Tanzania	ZM	TZ
+Zambia	Zimbabwe	ZM	ZW
+Zimbabwe	Botswana	ZW	BW
+Zimbabwe	Mozambique	ZW	MZ
+Zimbabwe	South Africa	ZW	ZA
+Zimbabwe	Zambia	ZW	ZM

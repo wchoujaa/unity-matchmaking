@@ -1,0 +1,16 @@
+SELECT   ?countryLabel ?neighbourLabel   ?countryCode ?neighbourCode   WHERE {
+  ?country wdt:P31 wd:Q6256;
+           wdt:P47 ?neighbour.
+    #not a former country
+  FILTER NOT EXISTS {?country wdt:P31 wd:Q3024240}
+  #and no an ancient civilisation (needed to exclude ancient Egypt)
+  FILTER NOT EXISTS {?country wdt:P31 wd:Q28171280} 
+ 
+?country wdt:P297 ?countryCode   .
+  ?neighbour  wdt:P297 ?neighbourCode   .  
+  SERVICE wikibase:label { 
+    bd:serviceParam wikibase:language "en".
+  }
+} ORDER BY ?countryLabel ?neighbourLabel 
+
+
