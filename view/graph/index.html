@@ -6,23 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graph</title>
     <style>
-        .links line {
-            stroke: #999;
-            stroke-opacity: 0.6;
+        #d3_selectable_force_directed_graph svg {
+            border: 1px solid;
+            font: 13px sans-serif;
+            text-anchor: end;
         }
 
-        .nodes circle {
+        #d3_selectable_force_directed_graph .node {
             stroke: #fff;
-            stroke-width: 1.5px;
+            stroke-width: 1px;
         }
+
+        .node .selected {
+            stroke: black;
+        }
+
+        .link {
+            stroke: #999;
+        }
+
+ 
     </style>
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-fetch@3"></script>
 
 </head>
 
 <body>
-    <svg width="1920" height="1080"></svg>
+    <div align='center' id="d3_selectable_force_directed_graph" style="width: 100%; height: 100%; margin: auto; margin-bottom: 12px">
+        <svg />
+    </div>
+   <!--  <svg width="1920" height="1080"></svg> -->
     <script src="./index.js"></script>
+    <script src="./graph.js"></script>
 
 </body>
 

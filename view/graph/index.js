@@ -1,17 +1,22 @@
-
 function getNodes(data) {
-  var res = [];
+  var tmp = [];
   data.forEach(element => {
     var id = element.A;
-    if (!res.includes(id)) {
-      res.push({ id: id });
+    if (!tmp.includes(id)) {
+      tmp.push(id);
     }
     id = element.B;
-    if (!res.includes(id)) {
-      res.push({ id: id });
+    if (!tmp.includes(id)) {
+      tmp.push(id);
     }
   });
+  var res = [];
 
+  tmp.forEach(element => {
+
+    res.push({ id: element });
+
+  });
   return res;
 }
 
@@ -21,114 +26,42 @@ function getLinks(data) {
     var obj = { source: element.A, target: element.B, weight: 1 }
     res.push(obj);
   });
-  //console.log(res);
+
   return res;
 }
-var g;
-var svg = d3.select("svg"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
 
-svg
-  .attr("viewBox", [0, 0, width, height]);
+var svg = d3.select('#d3_selectable_force_directed_graph');
 
-var color = d3.scaleOrdinal(d3.schemeCategory20);
+function getCountryDictionary() {
+  d3.csv('graph.csv', function (error, data) {
+  });
+}
 
-var simulation = d3.forceSimulation()
-  .force("link", d3.forceLink().id(function (d) { return d.id; }))
-  .force("charge", d3.forceManyBody())
-  .force("center", d3.forceCenter(width / 2, height / 2));
+var dictionary = {};
 
-d3.csv("graph.csv", function (error, data) {
-  if (error) throw error;
-  var links = getLinks(data);
-  var nodes = getNodes(data);
-  graph = { links: links, nodes: nodes };
+async function LoadGraph() {
+  try {
+    const data = await d3.csv('graph.csv');
 
-  g = svg.append("g")
-    .attr("cursor", "grab");
+    var links = getLinks(data);
+    var nodes = getNodes(data);
 
-  var link = g.append("g")
-    .attr("class", "links")
-    .selectAll("line")
-    .data(graph.links)
-    .enter().append("line")
-    .attr("stroke-width", function (d) { return Math.sqrt(d.value); });
+    graph = { links: links, nodes: nodes };
 
-  var node = g.append("g")
-    .attr("class", "nodes")
-    .selectAll("g")
-    .data(graph.nodes)
-    .enter().append("g")
+    countryList = await d3.csv('countries.csv');
+    countryList.forEach(element => {
+      dictionary[element.countryCode] = element;
+    });
+    //console.log(countries);
 
-  var circles = node.append("circle")
-    .attr("r", 5)
-    .attr("fill", function (d) { return color(d.group); });
+    createV4SelectableForceDirectedGraph(svg, graph);
 
-  // Create a drag handler and append it to the node object instead
-  var drag_handler = d3.drag()
-    .on("start", dragstarted)
-    .on("drag", dragged)
-    .on("end", dragended);
-
-  //g.call(drag);
-  g.call(d3.zoom()
-    .extent([[0, 0], [width, height]])
-    .scaleExtent([1, 8])
-    .on("zoom", zoomed));
-
-
-  drag_handler(node);
-
-  var labels = node.append("text")
-    .text(function (d) {
-      return d.id;
-    })
-    .attr('x', 6)
-    .attr('y', 3);
-
-  node.append("title")
-    .text(function (d) { return d.id; });
-
-  simulation
-    .nodes(graph.nodes)
-    .on("tick", ticked);
-
-  simulation.force("link")
-    .links(graph.links);
-
-  function ticked() {
-    link
-      .attr("x1", function (d) { return d.source.x; })
-      .attr("y1", function (d) { return d.source.y; })
-      .attr("x2", function (d) { return d.target.x; })
-      .attr("y2", function (d) { return d.target.y; });
-
-    node
-      .attr("transform", function (d) {
-        return "translate(" + d.x + "," + d.y + ")";
-      })
+  } catch (error) {
+    console.log(error);
   }
-});
-
-function dragstarted(d) {
-  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-  d.fx = d.x;
-  d.fy = d.y;
 }
 
-function dragged(d) {
-  d.fx = d3.event.x;
-  d.fy = d3.event.y;
-}
 
-function dragended(d) {
-  if (!d3.event.active) simulation.alphaTarget(0);
-  d.fx = null;
-  d.fy = null;
-}
 
-function zoomed(elem) {
-  console.log(elem);
-  g.attr("transform", transform);
-}
+LoadGraph();
+
