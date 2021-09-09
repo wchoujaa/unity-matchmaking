@@ -1,0 +1,1430 @@
+[
+  {
+    "range": [
+      267386880,
+      268435455
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      2474508288,
+      2474573823
+    ],
+    "country": "US",
+    "region": "IL",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "Chicago",
+    "ll": [
+      42.0107,
+      -87.6657
+    ],
+    "metro": 602,
+    "area": 5
+  },
+  {
+    "range": [
+      943718400,
+      947912703
+    ],
+    "country": "US",
+    "region": "NC",
+    "eu": "0",
+    "timezone": "America/New_York",
+    "city": "Raleigh",
+    "ll": [
+      35.7977,
+      -78.6253
+    ],
+    "metro": 560,
+    "area": 1000
+  },
+  {
+    "range": [
+      578813952,
+      583008255
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      2952658944,
+      2952724479
+    ],
+    "country": "KR",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Seoul",
+    "city": "",
+    "ll": [
+      37.5112,
+      126.9741
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      3588243456,
+      3588259839
+    ],
+    "country": "BE",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Brussels",
+    "city": "",
+    "ll": [
+      50.85,
+      4.35
+    ],
+    "metro": 0,
+    "area": 100
+  },
+  {
+    "range": [
+      3225903104,
+      3225904127
+    ],
+    "country": "SE",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Stockholm",
+    "city": "",
+    "ll": [
+      59.3247,
+      18.056
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      2944409600,
+      2944411647
+    ],
+    "country": "JP",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Tokyo",
+    "city": "",
+    "ll": [
+      35.69,
+      139.69
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      3190762496,
+      3190762751
+    ],
+    "country": "CL",
+    "region": "RM",
+    "eu": "0",
+    "timezone": "America/Santiago",
+    "city": "Santiago",
+    "ll": [
+      -33.4513,
+      -70.6653
+    ],
+    "metro": 0,
+    "area": 1
+  },
+  {
+    "range": [
+      293601280,
+      294125567
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      3655352320,
+      3655354367
+    ],
+    "country": "DE",
+    "region": "SH",
+    "eu": "1",
+    "timezone": "Europe/Berlin",
+    "city": "Lübeck",
+    "ll": [
+      53.8685,
+      10.6854
+    ],
+    "metro": 0,
+    "area": 1
+  },
+  {
+    "range": [
+      3753869312,
+      3753902079
+    ],
+    "country": "IN",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Kolkata",
+    "city": "",
+    "ll": [
+      20,
+      77
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      835248128,
+      835252223
+    ],
+    "country": "IN",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Kolkata",
+    "city": "",
+    "ll": [
+      20,
+      77
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1577735168,
+      1577736191
+    ],
+    "country": "GB",
+    "region": "ENG",
+    "eu": "1",
+    "timezone": "Europe/London",
+    "city": "Coventry",
+    "ll": [
+      52.4255,
+      -1.4453
+    ],
+    "metro": 0,
+    "area": 20
+  },
+  {
+    "range": [
+      3128934400,
+      3128942591
+    ],
+    "country": "AR",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "city": "",
+    "ll": [
+      -34.6033,
+      -58.3817
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      135032832,
+      135036927
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      312672256,
+      312737791
+    ],
+    "country": "CN",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Shanghai",
+    "city": "",
+    "ll": [
+      34.7725,
+      113.7266
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      578813952,
+      583008255
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1018224640,
+      1018232831
+    ],
+    "country": "CN",
+    "region": "ZJ",
+    "eu": "0",
+    "timezone": "Asia/Shanghai",
+    "city": "Hangzhou",
+    "ll": [
+      30.294,
+      120.1619
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      828440576,
+      828456959
+    ],
+    "country": "JP",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Tokyo",
+    "city": "",
+    "ll": [
+      35.69,
+      139.69
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      1615962880,
+      1615963135
+    ],
+    "country": "US",
+    "region": "CA",
+    "eu": "0",
+    "timezone": "America/Los_Angeles",
+    "city": "Lodi",
+    "ll": [
+      38.1228,
+      -121.2543
+    ],
+    "metro": 862,
+    "area": 50
+  },
+  {
+    "range": [
+      31096832,
+      31113215
+    ],
+    "country": "KR",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Seoul",
+    "city": "",
+    "ll": [
+      37.5112,
+      126.9741
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      2626945024,
+      2627010559
+    ],
+    "country": "IT",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Rome",
+    "city": "",
+    "ll": [
+      43.1479,
+      12.1097
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      247304192,
+      247306239
+    ],
+    "country": "VN",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "city": "",
+    "ll": [
+      16,
+      106
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      2386427904,
+      2386558975
+    ],
+    "country": "CA",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Toronto",
+    "city": "",
+    "ll": [
+      43.6319,
+      -79.3716
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      75497472,
+      79691775
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      2456820736,
+      2456820991
+    ],
+    "country": "AU",
+    "region": "",
+    "eu": "0",
+    "timezone": "Australia/Sydney",
+    "city": "",
+    "ll": [
+      -33.494,
+      143.2104
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      1391825920,
+      1391826943
+    ],
+    "country": "FR",
+    "region": "IDF",
+    "eu": "1",
+    "timezone": "Europe/Paris",
+    "city": "Neuilly-sur-Marne",
+    "ll": [
+      48.8537,
+      2.549
+    ],
+    "metro": 0,
+    "area": 5
+  },
+  {
+    "range": [
+      2621571072,
+      2621636607
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1000218624,
+      1000222719
+    ],
+    "country": "JP",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Tokyo",
+    "city": "",
+    "ll": [
+      35.69,
+      139.69
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      140509184,
+      142606335
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      991211520,
+      991215615
+    ],
+    "country": "KR",
+    "region": "26",
+    "eu": "0",
+    "timezone": "Asia/Seoul",
+    "city": "Busan",
+    "ll": [
+      35.1003,
+      129.0442
+    ],
+    "metro": 0,
+    "area": 5
+  },
+  {
+    "range": [
+      3301412352,
+      3301412607
+    ],
+    "country": "CA",
+    "region": "ON",
+    "eu": "0",
+    "timezone": "America/Toronto",
+    "city": "Toronto",
+    "ll": [
+      43.6215,
+      -79.392
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      3684597760,
+      3684630527
+    ],
+    "country": "CN",
+    "region": "BJ",
+    "eu": "0",
+    "timezone": "Asia/Shanghai",
+    "city": "",
+    "ll": [
+      39.9289,
+      116.3883
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      2157342720,
+      2157346815
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1333420032,
+      1333422079
+    ],
+    "country": "HU",
+    "region": "PE",
+    "eu": "1",
+    "timezone": "Europe/Budapest",
+    "city": "Dunakeszi",
+    "ll": [
+      47.6333,
+      19.1333
+    ],
+    "metro": 0,
+    "area": 5
+  },
+  {
+    "range": [
+      1461944320,
+      1461952511
+    ],
+    "country": "IE",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Dublin",
+    "city": "",
+    "ll": [
+      53.3472,
+      -6.2439
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      2782527488,
+      2782593023
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1351778304,
+      1351786495
+    ],
+    "country": "DE",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Berlin",
+    "city": "",
+    "ll": [
+      51.2993,
+      9.491
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      700204032,
+      700204287
+    ],
+    "country": "MR",
+    "region": "",
+    "eu": "0",
+    "timezone": "Africa/Nouakchott",
+    "city": "",
+    "ll": [
+      20,
+      -12
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      92543360,
+      92543487
+    ],
+    "country": "NL",
+    "region": "ZH",
+    "eu": "1",
+    "timezone": "Europe/Amsterdam",
+    "city": "Naaldwijk",
+    "ll": [
+      51.9935,
+      4.207
+    ],
+    "metro": 0,
+    "area": 100
+  },
+  {
+    "range": [
+      140509184,
+      142606335
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1835014144,
+      1835016191
+    ],
+    "country": "RO",
+    "region": "IS",
+    "eu": "1",
+    "timezone": "Europe/Bucharest",
+    "city": "Iasi",
+    "ll": [
+      47.1667,
+      27.6
+    ],
+    "metro": 0,
+    "area": 100
+  },
+  {
+    "range": [
+      2907991040,
+      2907992063
+    ],
+    "country": "US",
+    "region": "NY",
+    "eu": "0",
+    "timezone": "America/New_York",
+    "city": "Rochester",
+    "ll": [
+      43.1311,
+      -77.6053
+    ],
+    "metro": 538,
+    "area": 10
+  },
+  {
+    "range": [
+      2264383488,
+      2264387583
+    ],
+    "country": "DE",
+    "region": "BY",
+    "eu": "1",
+    "timezone": "Europe/Berlin",
+    "city": "Munich",
+    "ll": [
+      48.1497,
+      11.585
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      3009189888,
+      3009191935
+    ],
+    "country": "BR",
+    "region": "SP",
+    "eu": "0",
+    "timezone": "America/Sao_Paulo",
+    "city": "Sorocaba",
+    "ll": [
+      -23.4766,
+      -47.4418
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      2262089728,
+      2262106111
+    ],
+    "country": "FR",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Paris",
+    "city": "",
+    "ll": [
+      48.8582,
+      2.3387
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      142606336,
+      146800639
+    ],
+    "country": "CN",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Shanghai",
+    "city": "",
+    "ll": [
+      34.7725,
+      113.7266
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      1140628992,
+      1140629503
+    ],
+    "country": "US",
+    "region": "NY",
+    "eu": "0",
+    "timezone": "America/New_York",
+    "city": "Hilton",
+    "ll": [
+      43.2923,
+      -77.7905
+    ],
+    "metro": 538,
+    "area": 100
+  },
+  {
+    "range": [
+      2855010304,
+      2855141375
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      2414542848,
+      2414608383
+    ],
+    "country": "US",
+    "region": "WI",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "Madison",
+    "ll": [
+      43.0653,
+      -89.4
+    ],
+    "metro": 669,
+    "area": 5
+  },
+  {
+    "range": [
+      1546186752,
+      1546188799
+    ],
+    "country": "GB",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/London",
+    "city": "",
+    "ll": [
+      51.4964,
+      -0.1224
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      397168640,
+      397172735
+    ],
+    "country": "RW",
+    "region": "",
+    "eu": "0",
+    "timezone": "Africa/Kigali",
+    "city": "",
+    "ll": [
+      0,
+      0
+    ],
+    "metro": 0,
+    "area": 0
+  },
+  {
+    "range": [
+      3463280640,
+      3463282687
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      117440512,
+      134217727
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      978819072,
+      978821119
+    ],
+    "country": "JP",
+    "region": "24",
+    "eu": "0",
+    "timezone": "Asia/Tokyo",
+    "city": "Suzuka",
+    "ll": [
+      34.8447,
+      136.4791
+    ],
+    "metro": 0,
+    "area": 10
+  },
+  {
+    "range": [
+      2399666176,
+      2400190463
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      968884224,
+      969932799
+    ],
+    "country": "FR",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Paris",
+    "city": "",
+    "ll": [
+      48.8582,
+      2.3387
+    ],
+    "metro": 0,
+    "area": 100
+  },
+  {
+    "range": [
+      2367160320,
+      2367225855
+    ],
+    "country": "DE",
+    "region": "TH",
+    "eu": "1",
+    "timezone": "Europe/Berlin",
+    "city": "Ilmenau",
+    "ll": [
+      50.6832,
+      10.9186
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      1206870016,
+      1206872063
+    ],
+    "country": "US",
+    "region": "IL",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "Palatine",
+    "ll": [
+      42.1112,
+      -88.0439
+    ],
+    "metro": 602,
+    "area": 5
+  },
+  {
+    "range": [
+      1644527616,
+      1644531711
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1616754688,
+      1616756735
+    ],
+    "country": "US",
+    "region": "GA",
+    "eu": "0",
+    "timezone": "America/New_York",
+    "city": "Atlanta",
+    "ll": [
+      33.8842,
+      -84.3761
+    ],
+    "metro": 524,
+    "area": 50
+  },
+  {
+    "range": [
+      2447392768,
+      2447409151
+    ],
+    "country": "GB",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/London",
+    "city": "",
+    "ll": [
+      51.4964,
+      -0.1224
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      427819008,
+      436207615
+    ],
+    "country": "GB",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/London",
+    "city": "",
+    "ll": [
+      51.4964,
+      -0.1224
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      1068498944,
+      1069547519
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      3087235584,
+      3087236095
+    ],
+    "country": "US",
+    "region": "SC",
+    "eu": "0",
+    "timezone": "America/New_York",
+    "city": "Holly Hill",
+    "ll": [
+      33.3276,
+      -80.4024
+    ],
+    "metro": 546,
+    "area": 200
+  },
+  {
+    "range": [
+      2638839808,
+      2638872575
+    ],
+    "country": "JP",
+    "region": "",
+    "eu": "0",
+    "timezone": "Asia/Tokyo",
+    "city": "",
+    "ll": [
+      35.69,
+      139.69
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      3432667136,
+      3432669183
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      2845835264,
+      2847932415
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      895483904,
+      896532479
+    ],
+    "country": "DE",
+    "region": "",
+    "eu": "1",
+    "timezone": "Europe/Berlin",
+    "city": "",
+    "ll": [
+      51.2993,
+      9.491
+    ],
+    "metro": 0,
+    "area": 200
+  },
+  {
+    "range": [
+      2392113152,
+      2392121343
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      455966720,
+      455999487
+    ],
+    "country": "CN",
+    "region": "GD",
+    "eu": "0",
+    "timezone": "Asia/Shanghai",
+    "city": "",
+    "ll": [
+      23.1167,
+      113.25
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      350224384,
+      352321535
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      2965725184,
+      2965727231
+    ],
+    "country": "RU",
+    "region": "KEM",
+    "eu": "0",
+    "timezone": "Asia/Novokuznetsk",
+    "city": "Kemerovo",
+    "ll": [
+      55.3333,
+      86.0833
+    ],
+    "metro": 0,
+    "area": 1
+  },
+  {
+    "range": [
+      1491273728,
+      1491275775
+    ],
+    "country": "TR",
+    "region": "06",
+    "eu": "0",
+    "timezone": "Europe/Istanbul",
+    "city": "Ankara",
+    "ll": [
+      39.9823,
+      32.8883
+    ],
+    "metro": 0,
+    "area": 20
+  },
+  {
+    "range": [
+      469762048,
+      478150655
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1686110208,
+      1694498815
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      3702161408,
+      3702169599
+    ],
+    "country": "CN",
+    "region": "HN",
+    "eu": "0",
+    "timezone": "Asia/Shanghai",
+    "city": "",
+    "ll": [
+      28.1783,
+      113.1117
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      3254397952,
+      3254398207
+    ],
+    "country": "FR",
+    "region": "NAQ",
+    "eu": "1",
+    "timezone": "Europe/Paris",
+    "city": "Camblanes-et-Meynac",
+    "ll": [
+      44.7655,
+      -0.4865
+    ],
+    "metro": 0,
+    "area": 20
+  },
+  {
+    "range": [
+      3210102784,
+      3210104831
+    ],
+    "country": "BR",
+    "region": "PR",
+    "eu": "0",
+    "timezone": "America/Sao_Paulo",
+    "city": "Curitiba",
+    "ll": [
+      -25.5026,
+      -49.2916
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1611399168,
+      1611661311
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  },
+  {
+    "range": [
+      1768970752,
+      1768971263
+    ],
+    "country": "NG",
+    "region": "",
+    "eu": "0",
+    "timezone": "Africa/Lagos",
+    "city": "",
+    "ll": [
+      10,
+      8
+    ],
+    "metro": 0,
+    "area": 500
+  },
+  {
+    "range": [
+      3729784832,
+      3729915903
+    ],
+    "country": "CN",
+    "region": "XJ",
+    "eu": "0",
+    "timezone": "Asia/Urumqi",
+    "city": "",
+    "ll": [
+      43.801,
+      87.6005
+    ],
+    "metro": 0,
+    "area": 50
+  },
+  {
+    "range": [
+      1078784000,
+      1078788095
+    ],
+    "country": "US",
+    "region": "",
+    "eu": "0",
+    "timezone": "America/Chicago",
+    "city": "",
+    "ll": [
+      37.751,
+      -97.822
+    ],
+    "metro": 0,
+    "area": 1000
+  }
+]

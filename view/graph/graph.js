@@ -113,6 +113,7 @@ function createV4SelectableForceDirectedGraph(svg, graph) {
     function degreesToRadians(degrees) {
         return (degrees * Math.PI) / 180;
     }
+    
     function latLonToOffsets(latitude, longitude) {
         const FE = 180; // false easting
         const FN = 0; // false north
