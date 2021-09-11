@@ -107,8 +107,8 @@ describe('Matchmaking', function () {
 
       var player = mm.registerPlayer(ip);
 
-      assert.ok(player.id)
-      assert.ok(mm.playerDict[player.id])
+      assert.ok(player.playerID)
+      assert.ok(mm.playerDict[player.playerID])
     });
   });
 });
@@ -117,13 +117,24 @@ describe('Matchmaking', function () {
 describe('Matchmaking', function () {
   describe('#requestMatch()', function () {
     it('test an incoming connection to see if the player is registered in the list', function () {
-      var ip = "207.900.207.239";
 
-      const mm = new MatchMaker();
 
-      mm.requestMatch(ip);
+      function test(ip) {
+        const mm = new MatchMaker();
+        var player = mm.registerPlayer(ip);
+        var playerSaved = mm.getPlayer(player.playerID);
+        assert.ok(player);
+        assert.ok(playerSaved);
+        assert.equal(player.playerID, playerSaved.playerID);
+      }
+      // Known IP adress
+      var ip = "207.97.227.239";
 
-      //assert.equal(mm.playerList.length, 1);
+      test(ip);
+      // Unkknown IP adress 
+      ip = "207.900.207.239";
+
+      //test(ip);
 
     });
   });
@@ -139,7 +150,7 @@ describe('Matchmaking', function () {
       const mm = new MatchMaker();
       mm.lobbySize = 1;
       var player = mm.registerPlayer(ip);
-      mm.requestMatch(player.id);
+      mm.requestMatch(player.playerID);
       var match = mm.findMatches(mm.playerList);
       assert.equal(match.length, 1);
 

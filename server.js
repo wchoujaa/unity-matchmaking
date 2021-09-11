@@ -16,9 +16,9 @@ app.get('/register/', (req, res) => {
     req.socket.remoteAddress ||
     null;
   var player = mm.registerPlayer(ip);
-
+ 
   if (player) {
-    res.json({ playerID: player.id })
+    res.json({ playerID: player.playerID })
   } else {
     res.status(400).send({
       message: 'IP not found!'
