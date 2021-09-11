@@ -9,6 +9,7 @@ integrate d3-geo
 
 graph algorithm
 
+remove match with size < lobbySize after k means algorithm
 
 # Testing
 

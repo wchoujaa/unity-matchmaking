@@ -5,6 +5,12 @@ const lib = require('../lib/util/util');
 const fs = require('fs');
 const { log } = require('console');
 const MatchMaker = require('../lib/matchMaker')
+const supertest = require('supertest');
+const server = require('../server');
+
+
+ 
+const requestWithSupertest = supertest(server);
 
 
 
@@ -144,13 +150,15 @@ describe('Matchmaking', function () {
 
 describe('Matchmaking', function () {
   describe('#findMatches(playerQueue)', function () {
-    it('test if we can get a match', function () {
+    it('test if we can get a match', async function () {
       var ip = "207.97.227.239";
 
       const mm = new MatchMaker();
       mm.lobbySize = 1;
       var player = mm.registerPlayer(ip);
-      mm.requestMatch(player.playerID);
+      const res = await requestWithSupertest.get('/matchmaking/match/' + player.playerID);
+
+      mm.requestMatch(player.playerID, res);
       var match = mm.findMatches(mm.playerQueue);
       assert.equal(match.length, 1);
     });
@@ -165,7 +173,7 @@ describe('Matchmaking', function () {
       const mm = new MatchMaker();
       mm.lobbySize = 1;
       var player = mm.registerPlayer(ip);
-      mm.requestMatch(player.playerID);
+      mm.requestMatch(player.playerID,);
       mm.findMatches(mm.playerQueue);
       assert.equal(mm.playerQueue.length, 0);
     });

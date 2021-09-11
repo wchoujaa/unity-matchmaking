@@ -1,6 +1,8 @@
 const express = require('express');
 const lib = require('./lib/util/util');
 const MatchMaker = require('./lib/matchMaker')
+
+
 const app = express();
 const port = 8000;
 
@@ -15,35 +17,24 @@ app.get('/register/', (req, res) => {
   var ip = req.headers['x-forwarded-for'] ||
     req.socket.remoteAddress ||
     null;
-  var player = mm.registerPlayer(ip);
- 
-  if (player) {
-    res.json({ playerID: player.playerID })
-  } else {
-    res.status(400).send({
-      message: 'IP not found!'
-    });
-  }
+  mm.registerPlayer(ip, res);
+
 })
 
-app.get('/matchmaking/:playerID', (req, res) => {
+
+// register in the matchmaking system
+app.get('/matchmaking/match/:playerID', (req, res) => {
   var playerID = req.params.playerID;
-  var player = mm.getPlayer(playerID);
-  if (player) {
-    var lobbyID = mm.requestMatch(req.params.playerID);
-    if (lobbyID) {
-      res.json({ lobbyID: lobbyID });
-    } else {
-      res.status(400).send({
-        message: 'No lobby found'
-      });
-    }
-  } else {
-    res.status(400).send({
-      message: 'Player not registered'
-    });
-  }
+  mm.requestMatch(playerID, res);
 });
+
+// get the lobby ID
+app.get('/matchmaking/lobby/:playerID', (req, res) => {
+  var playerID = req.params.playerID;
+  mm.requestLobbyID(playerID, res);
+
+});
+
 
 app.get('/', (req, res) => {
   console.log("online");
@@ -51,10 +42,12 @@ app.get('/', (req, res) => {
 
 app.use('/graph', express.static('view/graph'));
 
-app.listen(port, () => {
+var exportApp = app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`)
 });
 
+
+module.exports.server = exportApp;
 
 
 
