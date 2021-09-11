@@ -143,7 +143,7 @@ describe('Matchmaking', function () {
 
 
 describe('Matchmaking', function () {
-  describe('#findMatches(playerList)', function () {
+  describe('#findMatches(playerQueue)', function () {
     it('test if we can get a match', function () {
       var ip = "207.97.227.239";
 
@@ -151,10 +151,23 @@ describe('Matchmaking', function () {
       mm.lobbySize = 1;
       var player = mm.registerPlayer(ip);
       mm.requestMatch(player.playerID);
-      var match = mm.findMatches(mm.playerList);
+      var match = mm.findMatches(mm.playerQueue);
       assert.equal(match.length, 1);
+    });
+  });
+});
 
+describe('Matchmaking', function () {
+  describe('#findMatches(playerQueue)', function () {
+    it('test if player left the queue after a match is found', function () {
+      var ip = "207.97.227.239";
 
+      const mm = new MatchMaker();
+      mm.lobbySize = 1;
+      var player = mm.registerPlayer(ip);
+      mm.requestMatch(player.playerID);
+      mm.findMatches(mm.playerQueue);
+      assert.equal(mm.playerQueue.length, 0);
     });
   });
 });
