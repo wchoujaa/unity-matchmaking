@@ -8,3 +8,10 @@ basic matchmaking service based on Ip address and estimated location
 integrate d3-geo 
 
 graph algorithm
+
+
+# Testing
+
+ngrok http 8000
+
+npm start

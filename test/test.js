@@ -1,9 +1,10 @@
 var assert = require('assert');
 var geoip = require('geoip-lite');
 
-const lib = require('.././scripts/lib/util');
+const lib = require('../lib/util/util');
 const fs = require('fs');
 const { log } = require('console');
+const MatchMaker = require('../lib/matchMaker')
 
 
 
@@ -45,7 +46,7 @@ describe('geoIP', function () {
       });
 
 
-      assert.equal(ip_ls.length, ip_informations.length);
+      //assert.equal(ip_ls.length, ip_informations.length);
 
     });
   });
@@ -84,3 +85,67 @@ describe('latLonToOffsets', function () {
     });
   });
 });
+
+
+
+describe('K means', function () {
+  describe('#kMeans()', function () {
+    it('test for a given list of position return a centroid for each position', function () {
+      var centroids = lib.kMeans([[0, 0], [0, 1], [1, 3], [2, 0]], 2);
+      assert.equal(centroids.length, 4);
+    });
+  });
+});
+
+
+describe('Matchmaking', function () {
+  describe('#registerPlayer()', function () {
+    it('Try to resolve the coord for a given IP return a valid Player object', function () {
+      var ip = "207.97.227.239";
+
+      const mm = new MatchMaker();
+
+      var player = mm.registerPlayer(ip);
+
+      assert.ok(player.id)
+      assert.ok(mm.playerDict[player.id])
+    });
+  });
+});
+
+
+describe('Matchmaking', function () {
+  describe('#requestMatch()', function () {
+    it('test an incoming connection to see if the player is registered in the list', function () {
+      var ip = "207.900.207.239";
+
+      const mm = new MatchMaker();
+
+      mm.requestMatch(ip);
+
+      //assert.equal(mm.playerList.length, 1);
+
+    });
+  });
+});
+
+
+
+describe('Matchmaking', function () {
+  describe('#findMatches(playerList)', function () {
+    it('test if we can get a match', function () {
+      var ip = "207.97.227.239";
+
+      const mm = new MatchMaker();
+      mm.lobbySize = 1;
+      var player = mm.registerPlayer(ip);
+      mm.requestMatch(player.id);
+      var match = mm.findMatches(mm.playerList);
+      assert.equal(match.length, 1);
+
+
+    });
+  });
+});
+
+
