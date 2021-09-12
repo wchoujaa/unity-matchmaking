@@ -180,9 +180,9 @@ describe('Matchmaking', function () {
 describe('Matchmaking', function () {
   describe('#findMatches(playerQueue)', function () {
     it('test to see if we get lobbies of size == N only', function () {
- 
 
-      function test(N){
+
+      function test(N) {
         const mm = new MatchMaker(lobbySize = N);
 
         var data;
@@ -191,28 +191,28 @@ describe('Matchmaking', function () {
         } catch (err) {
           console.error("error reading the file : ", err);
         }
-  
+
         var ip_ls = data.split('\r\n');
-  
+
         ip_ls.forEach(function (ip) {
           var player = mm.registerPlayer(ip);
           if (player)
             mm.requestMatch(player.playerID);
-  
+
         });
-  
-  
+
+
         var matches = mm.findMatches(mm.playerQueue);
         assert.equal(matches.length > 1, true);
-  
+
         matches.forEach(function (match) {
           assert.equal(match.players.length, N);
-  
+
         });
       }
 
 
-      test(3); 
+      test(3);
       test(4);
       test(10);
 
@@ -220,3 +220,26 @@ describe('Matchmaking', function () {
   });
 });
 
+
+describe('Matchmaking', function () {
+  describe('#updatePlayerList(matches)', function () {
+    it('test to see if we get register a new lobby', function () {
+
+      var ip = "207.97.227.239";
+
+      const mm = new MatchMaker(lobbySize = 1);
+      var player = mm.registerPlayer(ip);
+      mm.requestMatch(player.playerID,);
+      var matches = mm.findMatches(mm.playerQueue);
+      mm.updatePlayerList(matches);
+
+      assert.equal(Object.keys(mm.lobbyDict).length, 1);
+
+      lobby = mm.lobbyDict[matches[0].lobbyID];
+
+      assert.ok(lobby);
+      assert.equal(lobby.players.length, 1);
+
+    });
+  });
+});
