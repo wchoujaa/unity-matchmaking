@@ -223,7 +223,7 @@ describe('Matchmaking', function () {
 
 describe('Matchmaking', function () {
   describe('#updatePlayerList(matches)', function () {
-    it('test to see if we get register a new lobby', function () {
+    it('test to see if we get to register a new lobby', function () {
 
       var ip = "207.97.227.239";
 
@@ -239,6 +239,27 @@ describe('Matchmaking', function () {
 
       assert.ok(lobby);
       assert.equal(lobby.players.length, 1);
+
+    });
+  });
+});
+
+
+
+describe('Matchmaking', function () {
+  describe('#requestLobbyID(playerID)', function () {
+    it('test to see if we return a list of players to connect with', function () {
+
+      var ip = "207.97.227.239";
+
+      const mm = new MatchMaker(lobbySize = 1);
+      var player = mm.registerPlayer(ip);
+      mm.requestMatch(player.playerID,);
+      var matches = mm.findMatches(mm.playerQueue);
+      mm.updatePlayerList(matches);
+      var json = mm.requestLobbyID(player.playerID);
+
+      assert.equal(json.players.length, 1);
 
     });
   });

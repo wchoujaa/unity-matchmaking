@@ -27,15 +27,15 @@ The matchmaking service is now running on port 8000!
 
 To start the matchmaking, as a user, three steps are required:
 
-> http://yourdomain.name.com/register/
+> http://yourdomain.name.com:8000/register/
 
 this step is required to save the user in the matchmaking system. The http request return a json with a field playerID, which will be used in the next step.
 
-> http://yourdomain.name.com/matchmaking/match/$playerID
+> http://yourdomain.name.com:8000/matchmaking/match/$playerID
 
 This request is sent to the server to put the player in the queue. Every 500 ms, the matchmaking will process the players in the queue and find matches between them.
 
-> http://yourdomain.name.com/matchmaking/lobby/$playerID
+> http://yourdomain.name.com:8000/matchmaking/lobby/$playerID
 
 Once the matchmaking  has finished, the player will be assigned a lobby ID, and a list of players in the same lobby
 
