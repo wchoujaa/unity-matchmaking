@@ -8,7 +8,16 @@ const port = 8000;
 
 const mm = new MatchMaker();
 
-mm.run(500);
+mm.run();
+
+function resHandler(res, json) {
+  if (json.error) {
+    res.status(400).send(json);
+  } else {
+    res.json(json);
+  }
+
+}
 
 app.set('trust proxy', true);
 
@@ -17,37 +26,34 @@ app.get('/register/', (req, res) => {
   var ip = req.headers['x-forwarded-for'] ||
     req.socket.remoteAddress ||
     null;
-  mm.registerPlayer(ip, res);
 
+  var json = mm.registerPlayer(ip);
+  resHandler(res, json); 
 })
 
 
 // register in the matchmaking system
 app.get('/matchmaking/match/:playerID', (req, res) => {
-  var playerID = req.params.playerID;
-  mm.requestMatch(playerID, res);
+  var playerID = req.params.playerID; 
+  var json = mm.requestMatch(playerID);
+  resHandler(res, json); 
 });
 
 // get the lobby ID
 app.get('/matchmaking/lobby/:playerID', (req, res) => {
   var playerID = req.params.playerID;
-  mm.requestLobbyID(playerID, res);
-
+  var json = mm.requestLobbyID(playerID);
+  resHandler(res, json);
 });
 
-
-app.get('/', (req, res) => {
-  console.log("online");
-});
-
+ 
 app.use('/graph', express.static('view/graph'));
 
-var exportApp = app.listen(port, () => {
-  console.log(`Example app listening on port ${port}!`)
+app.listen(port, () => {
+  console.log(`Server running on port ${port}!`)
 });
 
-
-module.exports.server = exportApp;
+ 
 
 
 

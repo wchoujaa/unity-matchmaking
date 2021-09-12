@@ -5,12 +5,10 @@ const lib = require('../lib/util/util');
 const fs = require('fs');
 const { log } = require('console');
 const MatchMaker = require('../lib/matchMaker')
-const supertest = require('supertest');
-const server = require('../server');
 
 
 
-const requestWithSupertest = supertest(server);
+
 
 
 
@@ -50,8 +48,6 @@ describe('geoIP', function () {
         if (geo)
           ip_informations.push(geo);
       });
-
-
       //assert.equal(ip_ls.length, ip_informations.length);
 
     });
@@ -92,17 +88,6 @@ describe('latLonToOffsets', function () {
   });
 });
 
-
-
-describe(' MatchMaking', function () {
-  describe('#updatePlayerList()', function () {
-    it('test  ', function () {
-
-
-
-    });
-  });
-});
 
 
 describe('MatchMaking', function () {
@@ -164,12 +149,10 @@ describe('Matchmaking', function () {
     it('test if we can get a match', async function () {
       var ip = "207.97.227.239";
 
-      const mm = new MatchMaker();
-      mm.lobbySize = 1;
+      const mm = new MatchMaker(lobbySize = 1);
       var player = mm.registerPlayer(ip);
-      const res = await requestWithSupertest.get('/matchmaking/match/' + player.playerID);
 
-      mm.requestMatch(player.playerID, res);
+      mm.requestMatch(player.playerID);
       var match = mm.findMatches(mm.playerQueue);
       assert.equal(match.length, 1);
     });
@@ -181,14 +164,59 @@ describe('Matchmaking', function () {
     it('test if player left the queue after a match is found', function () {
       var ip = "207.97.227.239";
 
-      const mm = new MatchMaker();
-      mm.lobbySize = 1;
+      const mm = new MatchMaker(lobbySize = 1);
+
       var player = mm.registerPlayer(ip);
       mm.requestMatch(player.playerID,);
       mm.findMatches(mm.playerQueue);
+
       assert.equal(mm.playerQueue.length, 0);
     });
   });
 });
 
+
+
+describe('Matchmaking', function () {
+  describe('#findMatches(playerQueue)', function () {
+    it('test to see if we get lobbies of size == N only', function () {
+ 
+
+      function test(N){
+        const mm = new MatchMaker(lobbySize = N);
+
+        var data;
+        try {
+          data = fs.readFileSync('./data/ip.txt', 'utf8')
+        } catch (err) {
+          console.error("error reading the file : ", err);
+        }
+  
+        var ip_ls = data.split('\r\n');
+  
+        ip_ls.forEach(function (ip) {
+          var player = mm.registerPlayer(ip);
+          if (player)
+            mm.requestMatch(player.playerID);
+  
+        });
+  
+  
+        var matches = mm.findMatches(mm.playerQueue);
+        assert.equal(matches.length > 1, true);
+  
+        matches.forEach(function (match) {
+          assert.equal(match.players.length, N);
+  
+        });
+      }
+
+
+      test(3); 
+      test(4);
+      test(10);
+
+    });
+  });
+});
 
