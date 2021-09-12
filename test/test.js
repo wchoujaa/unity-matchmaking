@@ -9,7 +9,7 @@ const supertest = require('supertest');
 const server = require('../server');
 
 
- 
+
 const requestWithSupertest = supertest(server);
 
 
@@ -94,11 +94,22 @@ describe('latLonToOffsets', function () {
 
 
 
-describe('K means', function () {
-  describe('#kMeans()', function () {
-    it('test for a given list of position return a centroid for each position', function () {
-      var centroids = lib.kMeans([[0, 0], [0, 1], [1, 3], [2, 0]], 2);
-      assert.equal(centroids.length, 4);
+describe(' MatchMaking', function () {
+  describe('#updatePlayerList()', function () {
+    it('test  ', function () {
+
+
+
+    });
+  });
+});
+
+
+describe('MatchMaking', function () {
+  describe('#updatePlayerList()', function () {
+    it('test ', function () {
+
+      //assert.equal(centroids.length, 4);
     });
   });
 });
