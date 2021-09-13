@@ -264,3 +264,27 @@ describe('Matchmaking', function () {
     });
   });
 });
+
+
+describe('Matchmaking', function () {
+  describe('#destroyLobby(lobbyID)', async function () {
+    it('test to see if we return a list of players to connect with', function (done) {
+
+      var ip = "207.97.227.239";
+
+      const mm = new MatchMaker(lobbySize = 1, tickRate = 0, timeout = 100);
+      var player = mm.registerPlayer(ip);
+      mm.requestMatch(player.playerID,);
+      var matches = mm.findMatches(mm.playerQueue);
+      mm.updatePlayerList(matches);
+      var json = mm.requestLobbyID(player.playerID);
+
+      setTimeout(function () {
+
+        lobby = mm.lobbyDict[json.lobbyID];
+        assert.equal(lobby, null);
+        done();
+      }, 200);
+    });
+  });
+});
